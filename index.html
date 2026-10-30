@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore conceitos de HTML, CSS e JavaScript com visuais e interativos">
+    <title>FRONT END - Construa Interfaces. Aprenda na Prática</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar" aria-label="Navegação principal">
+            <a href="#inicio" class="logo">FRONT END</a>
+
+            <input type="checkbox" id="menu-toggle-checkbox" class="menu-toggle-checkbox" aria-label="Alternar menu de navegação">
+            <label for="menu-toggle-checkbox" class="menu-toggle" aria-hidden="true">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#conteudo">Conteúdo</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#exemplos">Exemplos</a></li>
+                <li><a href="#">Tutorial</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-texto">
+                <h1>Construa Interfaces. Aprenda na Prática</h1>
+                <p>Explore conceitos de HTML, CSS e JavaScript com visuais e interativos</p>
+                <a href="cadastro.html" class="btn-cta">Começar Agora</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/Gemini_Generated_Image_ukmxdgukmxdgukmx.png" alt="Ilustração de Programação Web" width="400" height="400" fetchpriority="high">
+            </div>
+        </section>
+
+        <section id="conteudo" class="conteudo">
+            <div class="conteudo-container">
+                <h2>O que você vai aprender</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>HTML</h3>
+                        <p>Estruturação de páginas com semântica e boas práticas</p>
+                    </article>
+                    <article class="card">
+                        <h3>CSS</h3>
+                        <p>Estilização moderna com cores, fontes e layout respondivo</p>
+                    </article>
+                    <article class="card">
+                        <h3>JavaScript</h3>
+                        <p>Interatividade e lógica com manipulação de eventos em DOM</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="depoimentos">
+            <div class="depoimentos-container">
+                <h2>O que dizem nossos alunos</h2>
+                <div class="depoimentos-grid">
+                    <article class="depoimento">
+                        <img src="assets/images/aluno1.jpg" alt="Foto de João Pereira" width="120" height="120" loading="lazy">
+                        <blockquote>
+                            <p>Aprender frontend ficou muito mais fácil com esse projeto. Agora consigo criar minhas próprias páginas</p>
+                        </blockquote>
+                        <cite>João Pereira</cite>
+                    </article>
+                    <article class="depoimento">
+                        <img src="assets/images/aluno2.jpg" alt="Foto de Maria Oliveira" width="120" height="120" loading="lazy">
+                        <blockquote>
+                            <p>As explicações são diretas e os exemplos me ajudaram a endenter o que eu achava impossível</p>
+                        </blockquote>
+                        <cite>Maria Oliveira</cite>
+                    </article>
+                    <article class="depoimento">
+                        <img src="assets/images/aluno3.png" alt="Foto de Ana Costa" width="120" height="120" loading="lazy">
+                        <blockquote>
+                            <p>O projeto me deu confiaça para montar meu portifólio e participar de processos seletivos</p>
+                        </blockquote>
+                        <cite>Ana Costa</cite>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="exemplos" class="exemplos">
+            <div class="exemplos-container">
+                <h2>Exemplos Práticos</h2>
+                <p class="exemplos-descricao">Veja alguns projetos criados com os conceitos aprendidos nas aulas.</p>
+                <div class="exemplos-grid">
+                    <article class="exemplo-card">
+                        <div class="exemplo-thumb">
+                            <img src="assets/images/exemplo1.jpg" alt="Exemplo de página HTML" width="320" height="200" loading="lazy">
+                        </div>
+                        <div class="exemplo-info">
+                            <h3>Portfólio Pessoal</h3>
+                            <p>Site de apresentação com HTML semântico e estilização com CSS moderno.</p>
+                        </div>
+                    </article>
+                    <article class="exemplo-card">
+                        <div class="exemplo-thumb">
+                            <img src="assets/images/exemplo2.jpg" alt="Exemplo de cardápio digital" width="320" height="200" loading="lazy">
+                        </div>
+                        <div class="exemplo-info">
+                            <h3>Cardápio Digital</h3>
+                            <p>Projeto interativo com botões e imagens simulando um site de lanchonete.</p>
+                        </div>
+                    </article>
+                    <article class="exemplo-card">
+                        <div class="exemplo-thumb">
+                            <img src="assets/images/exemplo3.jpg" alt="Exemplo de conversor de moedas" width="320" height="200" loading="lazy">
+                        </div>
+                        <div class="exemplo-info">
+                            <h3>Conversor de Moedas</h3>
+                            <p>Pequena aplicação com JavaScript para calcular conversões em tempo real.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
